@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Welcome to Chandigarh University Information Management System</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VTQ3M834LB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VTQ3M834LB');
+  
+  
+</script>
+		
+		<style>
+			body {
+				font-family: 'Roboto', sans-serif;
+			}
+
+			html,
+			body {
+				height: 100%;
+			}
+
+			.loginOption-section {
+				background: #f9f9f9;
+				min-height: 100%;
+				position: relative;
+				padding: 100px 0;
+			}
+
+			.loginOption-section::before {
+				content: '';
+				background: #f9f9f9;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				height: 450px;
+			}
+
+			.loginOption-section .container {
+				position: relative;
+				z-index: 1;
+			}
+
+			/*.loginOption-section__logo {
+				max-width: 220px;
+				margin: auto;
+				margin-bottom: 50px;
+			}*/
+			
+			.loginOption-section__logo {
+				margin-bottom: 50px;
+			}
+			
+			/*.loginOption-section__logo  img{
+				width: 100%;
+			}*/
+			
+			.loginOption-section__logo  img{
+				width: auto;
+			}
+
+			.loginOption-section__list--card {
+				box-shadow: 0 0 36px rgba(0, 0, 0, 0.06);
+				padding: 30px;
+				border-radius: 15px;
+				font-size: 14px;
+				line-height: 20px;
+				font-weight: 300;
+				color: #111;
+				border: 1px solid #ececed;
+				background: #fff;
+				margin-bottom: 30px;
+			}
+
+			.loginOption-section__list--card .card-body {
+				min-height: 140px;
+			}
+
+			.loginOption-section__list--card span {
+				display: inline-block;
+			}
+
+			.loginOption-section__list--card span img {
+				width: auto;
+				height: 60px;
+			}
+
+			.loginOption-section__list--card h3 {
+				font-size: 20px;
+				font-weight: bold;
+				color: #111;
+			}
+
+			.loginOption-section__list--card p {}
+
+			.loginOption-section__list--card a {
+				font-size: 14px;
+				line-height: 14px;
+				font-weight: bold;
+				color: #fff;
+				display: inline-block;
+				background: #da1010;
+				padding: 9px 17px;
+				text-decoration: none;
+				border-radius: 30px;
+			}
+
+			.loginOption-section__list--card a:hover {
+				text-decoration: none;
+				color: #fff;
+				background: #111
+			}
+			
+			@media only screen and (min-width: 1400px){
+				.container{
+					width: 1320px;
+				}
+			}
+			
+			@media only screen and (max-width: 991px){
+				.loginOption-section{
+					padding: 60px 0
+				}
+			}
+			
+			@media only screen and (max-width: 767px){
+				.loginOption-section{
+					padding: 40px 0
+				}
+				.loginOption-section::before{
+					height: 300px
+				}
+				.loginOption-section__logo{
+					margin-bottom: 30px
+				}
+				.loginOption-section__logo img{
+					width: 160px
+				}
+				.loginOption-section__list--card .card-body{
+					min-height: inherit;
+				}
+				
+				.loginOption-section__logo img:nth-child(1) {
+					width: 120px !important;
+				}
+				.loginOption-section__logo img:nth-child(2) {
+					width: 93px !important;
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+	
+	
+
+	
+	
+	
+	
+	
+	
+		<section class="loginOption-section" style="background-color: #da1010; background-image: url('cuimsLogin-bg.png'); background-repeat: no-repeat; background-size: 100%; background-position: bottom">
+         <div class="container">
+            <div class="loginOption-section__logo text-center">
+               <img src="cuimsLogo.png" alt="logo" style="width: 220px;">
+				 <!-- <img src="CUIMS-karwa-chauth.png" alt="logo">  -->
+			   <!-- <img src="newyear2022.gif" alt="logo"> -->
+			   <!-- <img src="cuimslogo.png" alt="logo"> -->
+            </div>
+            <div class="loginOption-section__list">
+               <div class="row">
+                  <div class="col-lg-3 col-sm-6">
+                     <div class="loginOption-section__list--card">
+                        <span><img src="studentLogin-icon.png" alt="icon"></span>
+                        <h3>Student Login</h3>
+                        <div class="card-body">
+                           <p>Login with your UID and Password to access your Student Services and Account. The CUIMS will keep a record of your progress and keep you apprised of the latest updates.</p>
+                        </div>
+                        <a href="https://uims.cuchd.in/uims" target="_blank">Login Now</a>
+                     </div>
+                  </div>
+				  <div class="col-lg-3 col-sm-6">
+                     <div class="loginOption-section__list--card">
+                        <span><img src="cuverse-logo.png" alt="icon"></span>
+                        <h3>LMS Login</h3>
+                        <div class="card-body">
+                           <p>Login to your LMS using your UID/EmployeeID and CUIMS password. In case you face any login issues, then reset your CUIMS Password and wait for 20 minutes to proceed.</p>
+                        </div>
+                        <a href="https://lms.cuchd.in"  target="_blank">Login Now</a>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <div class="loginOption-section__list--card">
+                        <span><img src="staffLogin-icon.png" alt="icon"></span>
+                        <h3>Staff Login</h3>
+                        <div class="card-body">
+                           <p>Login using your Employee Code and Password to access your account, keep track of your progress and other official services. </p>
+                        </div>
+                        <a href="https://staff.cuchd.in"  target="_blank">Login Now</a>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <div class="loginOption-section__list--card">
+                        <span><img src="admissionLogin-icon.png" alt="icon"></span>
+                        <h3>Admission Login</h3>
+                        <div class="card-body">
+                           <p>For Admission Staff only. Use your Employee Code and Password to log in for admission related services.</p>
+                        </div>
+                        <a href="https://admissions.cuchd.in"  target="_blank">Login Now</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="weatherwidget-io" href="https://forecast7.com/en/30d7776d56/gharuan/" data-label_1="GHARUAN" data-label_2="WEATHER" data-textcolor="#ffffff"  target="_blank">GHARUAN WEATHER</a>
+            <script>
+               !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+         </div>
+      </section>
+	</body>
+</html>
